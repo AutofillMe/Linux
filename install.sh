@@ -87,3 +87,5 @@ curl -sS https://starship.rs/install.sh | sh
 echo "# Starship Setup" >> /home/"$user"/.bashrc
 echo "eval '$(starship init bash)'" >> /home/"$user"/.bashrc
 mkdir -p ~/.config && touch ~/.config/starship.toml
+
+#test
