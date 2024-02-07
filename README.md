@@ -1,6 +1,6 @@
 .dP"Y8  dP""b8 88""Yb 88 88""Yb 888888      dP""b8 88 888888 Yb  dP
 
-`Ybo." dP   `" 88__dP 88 88__dP   88       dP   `" 88   88    YbdP  
+\`Ybo." dP   \`" 88__dP 88 88__dP   88       dP   `" 88   88    YbdP  
 
 o.`Y8b Yb      88"Yb  88 88"""    88       Yb      88   88     8P   
 
@@ -8,4 +8,4 @@ o.`Y8b Yb      88"Yb  88 88"""    88       Yb      88   88     8P
 
 
 
-Files I use for my Linux installs.
+Files I use for my Linux installs. 
