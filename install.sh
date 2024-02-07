@@ -88,4 +88,8 @@ echo "# Starship Setup" >> /home/"$user"/.bashrc
 echo "eval '$(starship init bash)'" >> /home/"$user"/.bashrc
 mkdir -p ~/.config && touch ~/.config/starship.toml
 
-#test
+# Clone config files from my github repo
+git clone https://github.com/AutofillMe/Linux /home/"$user"/Downloads/myConfigs/
+
+# Add my starship.toml file to config
+mv -f /home/"$user"/Downloads/myConfigs/starship.toml ~/.config/
