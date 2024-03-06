@@ -26,7 +26,7 @@ dnfDepends=(
 	lolcat
 	fd-find
 	nodejs
-	nvim
+	neovim
 )
 
 sudo dnf install -y "${dnfDepends[@]}"
