@@ -29,6 +29,7 @@ user=$(whoami)
 mv -f /home/"$user"/Downloads/myConfigs/chadrc.lua /home/"$user"/.config/nvim/lua/custom/
 mv -f /home/"$user"/Downloads/myConfigs/init.lua /home/"$user"/.config/nvim/lua/custom/
 mv -f /home/"$user"/Downloads/myConfigs/plugins.lua /home/"$user"/.config/nvim/lua/custom/
+mkdir /home/"$user"/.config/nvim/lua/custom/configs/
 mv -f /home/"$user"/Downloads/myConfigs/lspconfig.lua /home/"$user"/.config/nvim/lua/custom/configs/
 
 # Remove the config folder
