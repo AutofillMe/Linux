@@ -56,6 +56,7 @@ fc-list | rg "NerdFont"
 
 # Add Bash Aliases
 bashAliases=(
+	""
 	"# Aliases"
 	"alias cat='bat --paging=never'"
 	"alias speedtest='speedtest-cli'"
@@ -68,6 +69,7 @@ bashAliases=(
 	"alias rm='rmtrash -iv'"
 	"alias rmdir='rmdirtrash -v'"
 	"alias grep='rg'"
+ 	""
 )
 
 for i in "${bashAliases[@]}"; do
