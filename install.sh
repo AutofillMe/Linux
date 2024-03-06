@@ -79,7 +79,9 @@ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 
 # Add Catppuccin Colorscheme to konsole
 git clone https://github.com/catppuccin/konsole /home/"$user"/Downloads/catppuccin/
+cd ./catppuccin/
 mv Catppuccin-Frappe.colorscheme Catppuccin-Latte.colorscheme Catppuccin-Macchiato.colorscheme Catppuccin-Mocha.colorscheme ~/.local/share/konsole/
+cd ~/Downloads/
 rm -rvf /home/"$user"/Downloads/catppuccin/
 
 # Install Starship and add setup to .bashrc file and add config
